@@ -5,7 +5,8 @@ metadata:
 spec:
   replicas: 2
   selector:
-    myapp: nginx-app
+    matchLabels:
+      myapp: nginx-app
   minReadySeconds: 10
   strategy:
     type: rollingUpdate
