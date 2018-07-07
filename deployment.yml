@@ -9,7 +9,7 @@ spec:
       myapp: nginx-app
   minReadySeconds: 10
   strategy:
-    type: rollingUpdate
+    type: RollingUpdate
     rollingUpdate:
       maxUnavailable: 1
       maxSurge: 1
