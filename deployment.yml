@@ -20,6 +20,6 @@ spec:
     spec:
       containers:
       - name: nginx-container
-        image: nginx
+        image: jenkins
         ports:
         - containerPort: 80
