@@ -4,9 +4,9 @@ metadata:
   name:  nginx-service
 spec:
   selector:
-    project: my-project
+    app: my-nginx
   type: NodePort
   ports:
   - name:  name-of-the-port
-    nodePort:  8080
+    port:  8080
     targetPort:  80
